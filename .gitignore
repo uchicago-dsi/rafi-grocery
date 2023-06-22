@@ -138,4 +138,5 @@ venv.bak/
 
 # data files
 *.avro
-data/*
+data/infogroup/*
+data/old_data/*
