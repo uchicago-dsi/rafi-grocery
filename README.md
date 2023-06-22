@@ -8,7 +8,7 @@ Over the past three decades, the number of grocery retail stores has shrunk by m
 
 Last October, the grocery chains Kroger and Albertsons announced plans to merge, which would give them a 19 percent market share. RAFI hopes to join its partners in petitioning the Federal Trade Commission (FTC) to oppose the merger. To aid their efforts, we will help RAFI map the locations of all grocery stores in the U.S. over time, quantify the extent to which consumer choice has decreased for different geographic regions and demographic groups, and analyze how the merger would impact consumer choice if executed.
 
-##Research Questions
+## Research Questions
 - For the initial exploratory data analysis, how many parent companies exist in the dataset? How many grocery chains do they own, and how do these numbers change per year?
 - To what extent is corporate concentration found today within the United States grocery industry? How does this vary by state or geographic region? How has the monopoly power of groceries’ parent companies changed over time?
 - What are the demographics of the communities most affected by concentrated corporate power (e.g., racial, socioeconomic, etc.)? Is there a statistically significant relationship (or strong correlation) between these demographic variables and the number of grocery stores available within a given number of miles, driving distance, or driving time?
