@@ -141,3 +141,5 @@ venv.bak/
 data/infogroup/*
 data/old_data/*
 data/*
+
+passwords.txt
