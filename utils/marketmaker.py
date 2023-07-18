@@ -40,8 +40,6 @@ def find_walmarts(df):
     x = companies.str.contains('walmart',case=False)
     x.loc[lambda x: x ==True].index
 
-    companies[9]
-
     walmart_companies = []
     for item in known_companies: 
         
@@ -67,8 +65,6 @@ def find_costcos(df):
 
     x = companies.str.contains('costco',case=False)
     x.loc[lambda x: x ==True].index
-
-    companies[9]
 
     costco_companies = []
     for item in known_companies: 
