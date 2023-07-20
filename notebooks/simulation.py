@@ -58,10 +58,11 @@ def proximity_function(df, dist=2.5, print_store_pairs=False, print_employees=Tr
     
     df_copy["STORE TYPE"] = df_copy["STORE TYPE"].replace("ALBERTSONS", "KROGER-ALBERTSONS")
     df_copy["STORE TYPE"] = df_copy["STORE TYPE"].replace("KROGER", "KROGER-ALBERTSONS")
+    df_copy["PARENT NUMBER"] = df_copy["PARENT NUMBER"].replace(5995907.0,7521503.0)
     
     return df_copy
 
-def remove_10pct(df, seed_value=123):
+def remove_10pct(df, seed_value=124):
     """
     10% of Stores shut down after a merger; this function randomly drops 10% of Kroger and Albertson owned stores on a national scale.
     It calculates and prints the sum of "EMPLOYEE SIZE (5) - LOCATION" from the removed rows before returning the DataFrame.
@@ -82,5 +83,6 @@ def remove_10pct(df, seed_value=123):
     
     df["STORE TYPE"] = df["STORE TYPE"].replace("ALBERTSONS", "KROGER-ALBERTSONS")
     df["STORE TYPE"] = df["STORE TYPE"].replace("KROGER", "KROGER-ALBERTSONS")
+    df["PARENT NUMBER"] = df["PARENT NUMBER"].replace(5995907.0,7521503.0)
 
     return df
